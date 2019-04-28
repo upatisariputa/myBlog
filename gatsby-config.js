@@ -35,11 +35,11 @@ module.exports = {
     siteUrl: config.siteUrl,
     pathPrefix: config.pathPrefix,
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "upatisariputa@gmail.com",
       searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
         ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        : "",
-      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
+        : "743f2e2d473bc26d2e26156c68916fe7",
+      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "content"
     },
     facebook: {
       appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
@@ -50,9 +50,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "upatisariputa@gmail.com",
+        apiKey: process.env.ALGOLIA_ADMIN_API_KEY
+          ? process.env.ALGOLIA_ADMIN_API_KEY
+          : "743f2e2d473bc26d2e26156c68916fe7",
+        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "content",
         queries,
         chunkSize: 10000 // default: 1000
       }
