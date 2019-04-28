@@ -1,18 +1,18 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "PersonalBlog - a blog starter for GatsbyJS", // <title>
-  shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteTitle: "Sariputa's BLOG", // <title>
+  shortSiteTitle: "Sariputa's Blog", // <title> ending for posts and pages
+  siteDescription: "Sariputa's Blog",
+  siteUrl: "https://upatisariputa/netlify.com",
   pathPrefix: "",
-  siteImage: "preview.jpg",
-  siteLanguage: "en",
+  siteImage: "",
+  siteLanguage: "ko",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Upati Sariputa",
+  authorTwitterAccount: "",
   // info
-  infoTitle: "greg lobinski",
+  infoTitle: "Upati Sariputa",
   infoTitleNote: "personal blog",
   // manifest.json
   manifestName: "PersonalBlog - a blog starter for GatsbyJS",
@@ -22,11 +22,10 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "john@doe.com",
+  contactEmail: "upatisariputa@gmail.com",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "https://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/upatisariputa" },
+    { name: "telegram", url: "https://t.me/upatisariputa" }
   ]
 };
