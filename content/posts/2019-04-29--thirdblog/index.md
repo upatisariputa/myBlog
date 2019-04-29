@@ -2,7 +2,7 @@
 title: 코드스테이츠 입문
 subTitle: 코드스테이츠 프리코스 입문기 2
 menuTitle: codestates
-date: "2019-04-29"
+date: "2019-04-29 04:00:00"
 category: "codestates"
 cover: codestates.jpg
 ---

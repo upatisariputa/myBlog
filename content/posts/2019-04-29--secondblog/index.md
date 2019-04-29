@@ -2,7 +2,7 @@
 title: 코드스테이츠 입문 전 이야기
 subTitle: 코드스테이츠 프리코스 입문기 1
 menuTitle: codestates
-date: "2019-04-29"
+date: "2019-04-29 02:00:00"
 category: "codestates"
 cover: opentutorials.jpg
 ---
