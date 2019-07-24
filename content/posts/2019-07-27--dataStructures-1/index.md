@@ -67,7 +67,15 @@ cover: data.jpg
 
 ### Graph Psuedo Code
 
+- 인맥 그래프
+
 ```javascript
+friends = {
+  Alice: ["Bob", "Diana", "Fred"],
+  Bob: ["Alice", "Cynthia", "Diana"],
+  Cynthia: ["Bob"],
+  Diana: ["Alice", "Bob", "Fred"]
+};
 ```
 
 [graph 참조](https://www.playsw.or.kr/online/termsData/240)
