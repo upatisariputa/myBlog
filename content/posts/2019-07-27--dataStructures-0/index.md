@@ -47,6 +47,8 @@ cover: data.jpg
 - 데이터는 스택의 끝에서만 읽을 수 있다.
 - 데이터는 스택의 끝에서만 삭제할 수 있다.(**스택으로 부터 팝**)
 
+![stackPaint](stackimg.png)
+
 ## Queue
 
 ### queue의 사전적 정의
@@ -77,6 +79,8 @@ cover: data.jpg
 
 linked list는 나란히 이어진 메모리 셀 묶음이 아님, **서로 인접하지 않은 메모리 셀 묶음으로 이뤄짐**, 컴퓨터 메모리 전체에 걸쳐 여러셀에 퍼져있을 수 있고, **서로 인접하지 않은 이러한 메모리 셀을 노드라고 부름** (linked list에서 자료와 다음 자료가 있는 위치를 같이 표현하는 개채 하나를 노드라 함)
 
+![QueuePaint](queueimg.png)
+
 ### linked list의 예
 
 ![linked list](linkedlist.jpg)
@@ -90,5 +94,7 @@ linked list는 나란히 이어진 메모리 셀 묶음이 아님, **서로 인�
 ### linked list 자료 수정 예
 
 - 위의 김노드가 권총이 필요없다고 한다면 마궁예는 피존윅에게 가라는 자료를 리사수에게 가라고 하면 된다.
+
+![LinkedListPaint](linkedlistimg.png)
 
 [linked list 참고](https://www.playsw.or.kr/online/termsData/234?focusMenuName=defaultMenu&serverDomain=www.playsw.or.kr&env=real&deviceType=normal&isSecureDomain=true&photoInfraServiceDomain=https%3A%2F%2Fcphinf.pstatic.net%2Fplaysw&mobileCheck=N&isPrivacy=false&snsLoginType=&ogDescription=&ogImage=&ogTitle=&ogUrl=)
