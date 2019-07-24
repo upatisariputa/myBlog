@@ -7,7 +7,7 @@ category: "codestates"
 cover: data.jpg
 ---
 
-# 자료구조
+# 자료구조 Part1
 
 ## 자료구조란?
 
@@ -69,6 +69,8 @@ cover: data.jpg
 - 데이터는 queue의 앞에만 읽을 수 있음(stack과 반대)
 - 데이터는 queue의 앞에서만 삭제(stack과 반대)
 
+![QueuePaint](queueimg.png)
+
 ## Linked List
 
 ### linked list란?
@@ -78,8 +80,6 @@ cover: data.jpg
 ### 노드란?
 
 linked list는 나란히 이어진 메모리 셀 묶음이 아님, **서로 인접하지 않은 메모리 셀 묶음으로 이뤄짐**, 컴퓨터 메모리 전체에 걸쳐 여러셀에 퍼져있을 수 있고, **서로 인접하지 않은 이러한 메모리 셀을 노드라고 부름** (linked list에서 자료와 다음 자료가 있는 위치를 같이 표현하는 개채 하나를 노드라 함)
-
-![QueuePaint](queueimg.png)
 
 ### linked list의 예
 
