@@ -1,6 +1,6 @@
 ---
-title: 자료구조
-subTitle: Graph, Tree, Hash Tables, Binary Tree(B-tree)
+title: Hash Table
+subTitle: Hash Tables
 menuTitle: codestates
 date: "2019-07-25 00:00:00"
 category: "codestates"
