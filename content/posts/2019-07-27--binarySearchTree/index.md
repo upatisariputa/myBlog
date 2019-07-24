@@ -16,6 +16,8 @@ cover: data.jpg
 - 이진탐색(binary search)와 연결리스트(Linked list)를 결합한 자료구조
 - 이진탐색의 효율적인 탐색 능력을 유지하면서, 빈번한 자료입력과 삭제가 가능
 
+![BST](BST.jpg)
+
 ### Binary Search Tree의 속성
 
 - 완전이진 트리
@@ -166,5 +168,6 @@ function lift(node, nodeToDelete) {
 - 누구나 자료 구조와 알고리즘
 - [이진 탐색 트리](https://idea-sketch.tistory.com/26)
 - [이진 탐색 트리](https://gmlwjd9405.github.io/2018/08/12/data-structure-tree.html)
+- [자바스크립트를 통한 자료구조 학습](https://github.com/scratchstudio/dsa-js-study)
 
 ## Graph와 Tree 차이
