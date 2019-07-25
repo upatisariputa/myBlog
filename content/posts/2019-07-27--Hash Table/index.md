@@ -77,7 +77,57 @@ menu["french fries"]; // 0.75
 
 ### Hash Table Psuedo Code
 
-![code](hashTable.jpg)
+- Core
+  ![code](hashTable.jpg)
+
+- Put
+
+```javascript
+put(item){
+  let key = this.couputeHash(item)
+  return !this.table[key] ? this.table[key] = itme : false;
+}
+```
+
+- Remove
+
+```javascript
+remove(item){
+  let key = this.computeHash(item){
+    return this.table[key] = undefined
+  }
+}
+```
+
+- Search & Size
+
+```javascript
+search(item){
+  let key = this.computeHash(item)
+  return this.table[key] == item
+}
+
+size(){
+    let counter = 0
+    for(let i = 0; len = this.table.length; i<len; i++){
+      if(this.table[i]){counter++}
+    }
+    return counter
+  }
+}
+```
+
+- IsEmpty
+
+```javascript
+isEmpty(){
+  for(let i = 0; len = this.table.length; i < len; i++){
+    if(this.table[i]) {return false}
+  }
+  return true
+}
+```
 
 [hash table 참조](https://dev-kani.tistory.com/1)
+
 [hash table 참조](https://medium.com/dev-blogs/ds-with-js-hash-table-4715c94083d2)
