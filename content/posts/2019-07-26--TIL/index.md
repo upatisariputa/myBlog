@@ -11,9 +11,7 @@ cover: javascript.jpg
 
 ## javascript class 란?
 
- - javascript class는 객체를 생성하고 상속을 다루는데 있어 더 단순하고 명확한 문법을 제공
-
-
+- javascript class는 객체를 생성하고 상속을 다루는데 있어 더 단순하고 명확한 문법을 제공
 
 ## 1. class 정의
 
