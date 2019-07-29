@@ -7,9 +7,7 @@ category: "Today I Learned"
 cover: TIL.jpg
 ---
 
-# 2019. 07. 25 Today I Learned
-
-## Instantiation Patterns
+# Instantiation Patterns
 
 - class(constructor가 나오기전 인스턴스화 패턴)
 
@@ -21,7 +19,7 @@ cover: TIL.jpg
   객체 생성
   객체의 메소드와 프로퍼티 생성
 
-### Functional
+## Functional
 
 - 함수를 이용하여 생성하는 방법
   함수를 이용하여 빈 객체를 만들고 속성과 메소드를 추가, 그 다음 객체를 반환
@@ -89,7 +87,7 @@ tiger.makeSound();
 
 - 단점 : 메서드를 수정하면 기존 객체와 새로운 객체가 다른 메서드를 참조
 
-### Prototypal
+## Prototypal
 
 - Prototypal 인스턴스화는 프로토 타입 체인을 사용하여 객체를 생성
 - 메서드는 Object.create 메서드를 사용하여 객체의 프로터 타입에 첨부 됨
@@ -118,7 +116,7 @@ tiger.makeSound();
 
 - 단점 : 메서드를 사용하려면 객체를 만들고 생성자 함수에서 객체를 반환해야함
 
-### Pesudoclassical
+## Pesudoclassical
 
 - Pseudoclassical 인스턴스 생성은 프로토타입 체인을 사용
 - new키워드를 사용하여 프로토타입 인스턴스화로 작성하는 대부분의 기능 제공
