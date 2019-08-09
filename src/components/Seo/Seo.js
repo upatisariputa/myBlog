@@ -22,6 +22,7 @@ const Seo = props => {
         prefix: "og: http://ogp.me/ns#"
       }}
     >
+      <meta name="google-site-verification" content="7jVCae_3tMek_ZErf_lD5ySRgPZ9iYhELIY-0QDctYo" />
       {/* General tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
