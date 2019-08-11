@@ -1,5 +1,5 @@
-require("dotenv").();
-const  = require("./content/meta/");
+require("dotenv").config();
+const config = require("./content/meta/config");
 
 const query = `{
   allMarkdownRemark(filter: { id: { regex: "//posts|pages//" } }) {
@@ -30,10 +30,10 @@ const queries = [
 
 module.exports = {
   siteMetadata: {
-    title: .siteTitle,
-    description: .siteDescription,
-    siteUrl: .siteUrl,
-    pathPrefix: .pathPrefix,
+    title: config.siteTitle,
+    description: config.siteDescription,
+    siteUrl: config.siteUrl,
+    pathPrefix: config.pathPrefix,
     algolia: {
       appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "D8Z69M27Q8",
       searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
@@ -111,12 +111,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: .manifestName,
-        short_name: .manifestShortName,
-        start_url: .manifestStartUrl,
-        background_color: .manifestBackgroundColor,
-        theme_color: .manifestThemeColor,
-        display: .manifestDisplay,
+        name: config.manifestName,
+        short_name: config.manifestShortName,
+        start_url: config.manifestStartUrl,
+        background_color: config.manifestBackgroundColor,
+        theme_color: config.manifestThemeColor,
+        display: config.manifestDisplay,
         icons: [
           {
             src: "/icons/icon-48x48.png",
@@ -160,7 +160,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-145390678-1'
+        trackingId: "UA-145390678-1"
       }
     },
     {
