@@ -2,7 +2,7 @@
 title: 2019.08.13 TIL
 subTitle: node.js OPTION method
 menuTitle: TIL
-date: "2019-07-30 00:00:00"
+date: "2019-08-13 00:00:00"
 category: "Today I Learned"
 cover: TIL.jpg
 ---
