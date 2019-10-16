@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Sariputa's BLOG", // <title>
   shortSiteTitle: "Sariputa's Blog", // <title> ending for posts and pages
   siteDescription: "Sariputa's Blog",
-  siteUrl: "https://upatisariputa/netlify.com",
+  siteUrl: "https://upatisariputa.netlify.com",
   pathPrefix: "",
   siteImage: "",
   siteLanguage: "ko",
