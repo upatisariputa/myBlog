@@ -14,6 +14,23 @@ cover: python_ec2.jpg
 - 코드스테이츠에서 이머시브 4주 프로젝트 동안 ILIO 기업 협업으로 Platform Crawler 만들기를 선택해서 프로젝트를 진행했습니다.
 - Platform Crawler는 아프리카, 트위치, 유튜브의 BJ의 페이지를 크롤링하여 유의미한 데이터들을 DB에 저장하고 그 데이터를 활용 BJ의 성장과 하락을 볼 수 있도록 한 APP입니다.
 
+#### 1. Platform Crawler 프로세스
+
+<img src="process.jpg" alt="process" style="zoom:50%;" />
+
+- 기본데이터인 크리에이터의 Number와 url이 들어 있는 Excel 파일을 DB로 옮긴후 크롤러 Script는 creater DB table에서 url을 가져와서 web에서 크리에이터의 데이터를 가져옵니다.
+- 일차적으로 가져온 데이터는 DB에 저장이 되고, 그 후 일별, 주별, 월별의 데이터는 장고서버가 다시 기록 합니다.
+
+#### 2. Platform Crawler 실행
+
+- 구동시 Crontab을 사용하여 일정 시간에 Crawler가 실행 되도록 합니다.
+
+![실행](back.gif)
+
+- Data
+
+![실행](crawler.gif)
+
 
 
 ### EC2 python 환경 Setup
