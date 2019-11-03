@@ -13,6 +13,7 @@ cover: python_ec2.jpg
 
 - 코드스테이츠에서 이머시브 4주 프로젝트 동안 ILIO 기업 협업으로 Platform Crawler 만들기를 선택해서 프로젝트를 진행했습니다.
 - Platform Crawler는 아프리카, 트위치, 유튜브의 BJ의 페이지를 크롤링하여 유의미한 데이터들을 DB에 저장하고 그 데이터를 활용 BJ의 성장과 하락을 볼 수 있도록 한 APP입니다.
+- https://slides.com/sariputaupati/deck 링크에서 프로젝트 상세 설명을 볼 수 있습니다.
 
 #### 1. Platform Crawler 프로세스
 
