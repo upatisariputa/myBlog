@@ -1,10 +1,10 @@
 ---
 title: 프로젝트 시작
-subTitle: 플랫폼 크롤러
+subTitle: prj001
 menuTitle: Project
 date: "2019-11-12 00:00:00"
 category: "Project"
-cover: index.jpg
+cover: prj.jpg
 ---
 
 ## 플랫폼 크롤러 만들기

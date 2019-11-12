@@ -1,10 +1,10 @@
 ---
 title: Selenium 익숙해 지기
-subTitle: 프로젝트 시작
+subTitle: prj002
 menuTitle: Project
 date: "2019-11-12 00:00:00"
 category: "Project"
-cover: index.jpg
+cover: prj.jpg
 ---
 
 ### Selenium 사용법 익히기
