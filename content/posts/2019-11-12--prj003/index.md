@@ -89,3 +89,7 @@ print(title)
 driver.close()
 ```
 
+### 참고사이트
+
+- [파이썬을 이용한 유튜브 채널 크롤링, csv파일로 만들기]([https://jh-0323.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%B1%84%EB%84%90-%ED%81%AC%EB%A1%A4%EB%A7%81-csv%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0](https://jh-0323.tistory.com/entry/파이썬을-이용한-유튜브-채널-크롤링-csv파일로-만들기))
+- [셀레니움을 활용한 크롤링](https://code-ing.tistory.com/6)
