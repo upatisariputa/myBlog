@@ -1,6 +1,6 @@
 ---
 title: 잡서칭 기간 동안 해야 할 일들
-subTitle: Todo
+subTitle: todo000
 menuTitle: career
 date: "2019-11-08 00:00:00"
 category: "My Story"
