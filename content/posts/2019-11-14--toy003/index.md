@@ -46,6 +46,7 @@ def solution(array, commands):
 ### 다른 사람의 풀이를 보고 고쳐야 할 점
 
 - Javascript 경우 map을 사용하여 반복문과 push 사용을 없앨수 있음
+- Python경우 lambda함수를 모르므로 다음 시간에 lambda에 대해 알아 보겠음
 
 
 
