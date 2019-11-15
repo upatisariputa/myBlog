@@ -1,6 +1,6 @@
 ---
 title: 프로그래머스 level1 K 번째 수
-subTitle: Toy002
+subTitle: Toy003
 menuTitle: toy
 date: "2019-11-14 00:00:00"
 category: "Toy"
