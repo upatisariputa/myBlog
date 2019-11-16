@@ -1,8 +1,8 @@
 ---
-title: 크롤러 프로토타입 모듈
-subTitle: prj006
+title: 크롤러 프로토타입 모듈 - Twitch API 사용하기
+subTitle: prj007
 menuTitle: Project
-date: "2019-11-15 00:00:00"
+date: "2019-11-16 00:00:00"
 category: "Project"
 cover: prj.jpg
 ---
@@ -13,20 +13,22 @@ cover: prj.jpg
 - 이전 프로젝트 때 아프리카tv와 트위치는 api로 데이터를 받아 왔습니다.
 - 이번에는 리팩토링을 하면서 각각을 OOP에 입각하여 만드려고 하겠습니다.
 
-### 가져와야 하는 데이터
+### Twitch API를 사용하여 데이터 받아오기
 
-- 크리에이터 : ID, 생성일, 주소, 이미지, 이름
-- 크리에이터-각비디오 : 이름, 주소, 조회수, 좋아요수, 댓글 수
-- 크리에이터-총비디오 : 비디오 개수, 비디오 좋아요 수, 비디오 총 시청 수, 비디오 댓글 수
-- 크리에이터-구독자 : 구독자 수
+- twitch도 api가 있으므로 api로 데이터를 받아 오면 된다.
+- twitch도 api가 매우 친절하므로 내가 원하는 데이터를 다 가져올 수 있다.
+- 헤더에 Client ID를 넣어야 하기 때문에 Postman으로 get요청을 보냈다.
+- 각각의 비디오 정보 또한 api로 가져올 수 있다.
 
-### 아프리카tv API를 사용하여 데이터 받아오기
+![팬수](twbjinfo.jpg)
 
-- 아프리카tv는 api가 있으므로 api로 데이터를 받아 오면 된다.
-- 아프리카tv api는 매우 친절하므로 내가 원하는 데이터를 다 가져올 수 있다.
+### Twitch API Client ID 발급받기
 
-![팬수](affcnt.jpg)
+- Twitch API를 사용하기 위해서는 GET요청을 보낼시에 Client ID값을 Header에 넣어서 보내야 한다. 
+- 이중 인증이 안 되어있다면 이중인증을 해준 후에 [트위치 개발자](https://dev.twitch.tv/) 페이지에 가서 Create an Extension을 클릭한다.
 
-- 각각의 비디오의 데이터 또한 api로 가져올 수 있다.
+![클라이언트아이디만들기1](twextension.jpg)
 
-다음 블로그에서는 트위치 API를 사용하여 데이터를 받아 오겠다.
+- 확장프로그램을 만들면 Twitch에서 Twitch API 클라이언트 ID를 발급해준다. 그럼 그 ID를 사용하여 Header에 클라이언트 ID를 넣고 Twitch API를 사용하면 된다.
+
+다음 블로깅에서는 트위치, 아프리카tv API를 사용하여 script를 만들어 보겠다.

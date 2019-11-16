@@ -1,5 +1,5 @@
 ---
-title: 크롤러 프로토타입 모듈
+title: 크롤러 프로토타입 모듈 - 아프리카tv API 사용하기
 subTitle: prj006
 menuTitle: Project
 date: "2019-11-15 00:00:00"
