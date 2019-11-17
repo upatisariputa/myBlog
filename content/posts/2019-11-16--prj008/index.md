@@ -1,6 +1,6 @@
 ---
 title: 크롤러 프로토타입 모듈 - Twitch 크리에이터 id 가져오기
-subTitle: prj007
+subTitle: prj008
 menuTitle: Project
 date: "2019-11-16 00:00:00"
 category: "Project"
@@ -59,6 +59,7 @@ get_user_id()
 ```
 
 - 크리에이터의 Login ID를 python script로 저장했지만 DB에 저장을 해야 하나?
+- ID도 DB에 저장 아니면 script로 저장?
 
 ```python
 if bj_id == {'data': []} or bj_id is None:
