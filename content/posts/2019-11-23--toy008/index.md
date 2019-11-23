@@ -7,7 +7,7 @@ category: "Toy"
 cover: toy.jpg
 ---
 
-## 모의고사
+## 시저암호
 
 - 프로그래머스 level1
 
