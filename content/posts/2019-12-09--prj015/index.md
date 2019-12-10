@@ -21,7 +21,7 @@ cover: prj.jpg
 - 다음은 제가 간단히 만들어본 프로시저 입니다.
 - 함수의 생성과 거의 비슷했습니다.
 
-```mysql
+```sql
  CREATE PROCEDURE `info_saver`( /* 프로시저명을 정의 합니다. 여기선 info_saver 입니다. */
 	IN `in_bj_num` INT,		/* 프로시저에서 사용될 인자들을 정의 합니다. */
 	IN `in_bj_name` VARCHAR,
